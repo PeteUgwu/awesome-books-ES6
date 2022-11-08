@@ -22,7 +22,7 @@ Web Browser (Google Chrome recommended)
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://peteugwu.github.io/awesome-books-ES6/)
 
 ## How to Run
 

@@ -9,9 +9,9 @@
   </head>
   <body>
     <div class="wrap-all">
-      <nav class="nav-bar">
+      <nav class="nav-bar flex-end">
         <h2>Awesome Books</h2>
-        <ul class="nav-list">
+        <ul class="nav-list flex">
           <li class="books-list">List</li>
           <li class="vr"></li>
           <li class="add-book">Add</li>
@@ -20,7 +20,7 @@
         </ul>
       </nav>
 
-      <div class="date-time">
+      <div class="date-time flex-end">
         <span class="current-time">Current Time</span>
       </div>
 
@@ -37,15 +37,17 @@
             name="fname"
             placeholder="Title"
             required
-          /><br /><br />
+          />
           <input
             type="text"
             id="lname"
             name="lname"
             placeholder="Author"
             required
-          /><br /><br />
-          <div class="button-form"><button type="submit">Add</button></div>
+          />
+          <div class="button-form flex-end">
+            <button class="flex" type="submit">Add</button>
+          </div>
         </form>
 
         <div class="contact">

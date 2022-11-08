@@ -5,6 +5,15 @@ body {
   padding: 0;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .wrap-all {
   border: 3px solid;
   height: auto;
@@ -14,8 +23,6 @@ body {
 .nav-bar {
   width: 95%;
   height: 2rem;
-  display: flex;
-  justify-content: flex-end;
   align-items: center;
   background-color: lightgray;
   border: 3px solid;
@@ -25,7 +32,6 @@ body {
 .nav-list {
   width: 40%;
   height: auto;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 1rem;
@@ -51,8 +57,6 @@ body {
 }
 
 .date-time {
-  display: flex;
-  justify-content: flex-end;
   width: 98%;
 }
 
@@ -86,7 +90,6 @@ h3 {
 }
 
 .booksAdded {
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0.5rem 0 0.5rem;
@@ -103,18 +106,13 @@ h3 {
 }
 
 .button-form {
-  display: flex;
-  justify-content: flex-end;
   width: 50%;
   margin: 0 auto;
 }
 
-button {
+.button-form button {
   align-content: flex-end;
   border: 3px solid;
-}
-
-.button-form button {
   cursor: pointer;
 }
 
@@ -137,6 +135,7 @@ button {
 
 .form input {
   width: 50%;
+  margin-bottom: 0.5rem;
 }
 
 .contact {
